@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 792193906}
   - component: {fileID: 792193905}
   - component: {fileID: 792193907}
+  - component: {fileID: 792193908}
   m_Layer: 0
   m_Name: PlayerBody
   m_TagString: Untagged
@@ -498,6 +499,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   gravity: -9.8
+  controller: {fileID: 792193905}
+  groundcheck: {fileID: 423787300}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  jumpheight: 3
+--- !u!114 &792193908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792193904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52fe2b5a1548e614fbaae861fb26e25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  gravity: -19.6
   controller: {fileID: 792193905}
   groundcheck: {fileID: 423787300}
   groundDistance: 0.4
