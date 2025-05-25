@@ -1,0 +1,10 @@
+#Ignore everything
+/*
+#Whitelisting specific files and directories
+!.vscode/
+!.gitignore
+!Assets/
+!Packages/
+!ProjectSettings/
+#ignore specific files for better performance
+Library/
