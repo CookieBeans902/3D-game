@@ -9,7 +9,7 @@ public class MouseLook : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked; //Adding a message here which is completely random but for testing purposes
     }
 
     // Update is called once per frame
